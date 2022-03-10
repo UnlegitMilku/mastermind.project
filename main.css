@@ -1,0 +1,92 @@
+.main-board {
+    background-color: rgb(32, 32, 32);
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.lista-jogadas {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: 75px 75px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.colors * {
+    width: 75px;
+    height: 75px;
+}
+.color1 {
+    background-color: red;
+}
+.color2 {
+    background-color: blue;
+}
+
+.color3 {
+    background-color: green;
+}
+.color4 {
+    background-color: purple;
+}
+.color5 {
+    background-color: pink;  
+}
+.color6 {
+    background-color: yellow;
+}
+.color7 {
+    background-color: orange;
+} 
+
+.jogada {
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+  }
+
+  .verifica {
+      display: flex;
+  }
+
+  .smalldot {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(124, 124, 124);
+    border-radius: 50%;
+    display: block;
+  }
+
+  .jogada-btn {
+      margin-left: 20px;
+  }
+
+  .final {
+    display: list-item;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.acertou {
+    display: none;
+}
+
+.errou {
+    display: none;
+}

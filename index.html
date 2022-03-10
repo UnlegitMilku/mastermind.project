@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <link rel="stylesheet" href="main.css">
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Mastermind Project</title>
+        </head>
+<body style="background-color:grey;">
+<!-- main -->
+<main class="page">
+    <div class="form-group">
+        <label for="input">Quantas rondas deseja jogar? </label>
+        <input type="number" class="form-control" id="input" required />
+        <div class="form2">
+            <input type="submit" class="btn1" value="Submit" />
+        </div>
+    </div>
+    <!-- header -->
+    <div class="main-board">
+        <div class="jogadas-container">
+            <div class="lista-jogadas">
+                <!--<div class="jogada jogada-1">
+                    <div class="jogada-colors"> 
+                        <span class="dot dot-1"></span>
+                        <span class="dot dot-2"></span>
+                        <span class="dot dot-3"></span>
+                        <span class="dot dot-4"></span>
+                    </div>
+    
+                    <div class="verifica verifica-1">
+                        <span class="smalldot smalldot-1"></span>
+                        <span class="smalldot smalldot-2"></span>
+                        <span class="smalldot smalldot-3"></span>
+                        <span class="smalldot smalldot-4"></span>
+                    </div>
+                </div>-->
+            </div>
+            <div class="jogada-btn">
+                <button>Verificar</button>
+            </div>
+            <div class="confirm-btn">
+                <button>Confirmar</button>
+            </div>
+    
+            <div class="start-btn">
+                <button>start</button>
+            </div>
+        </div>
+        
+
+       <!--<div class="hiddenColors">
+            <div class="hiddenColor" id="hiddenColor1"></div>
+            <div class="hiddenColor" id="hiddenColor2"></div>
+            <div class="hiddenColor" id="hiddenColor3"></div>
+            <div class="hiddenColor" id="hiddenColor4"></div>
+       </div>-->
+
+       <div class="colors">
+            <div class="color1" id="red"></div>
+            <div class="color2" id="blue"></div>
+            <div class="color3" id="green"></div>
+            <div class="color4" id="purple"></div>
+            <div class="color5" id="pink"></div>
+            <div class="color6" id="yellow"></div>
+            <div class="color7" id="orange"></div>     
+       </div>
+
+        <div class="final">
+            <h2 class="acertou">Acertou!</h2>
+
+            <h2 class="errou">Nao Acertou</h2>
+        </div>
+
+    </div>
+
+</main>
+<!-- end of main -->
+<script src="javascript.js"></script>
+</body>
+</html>
